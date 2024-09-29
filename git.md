@@ -45,9 +45,15 @@ Ví dụ **"change" thay cho "changed..."**
    - **bugfix/**: nhánh đó được xử dụng để phát hành một tính năng mới.
    - **test/**: kiểm thử chức năng đó có lỗi gì không
 2. **Hậu tố**
-   - Nên viết tách riêng ra bằng dấu ```-``` hoặc là dấu ```/``` để tăng khả năng đọc tên nhánh <br>
+   - **Nên viết tách riêng** ra bằng dấu ```-``` hoặc là dấu ```/``` để tăng khả năng đọc tên nhánh <br>
      ví dụ: ```create-welcome-page``` hoặc ```create/welcome/page```
-   - Thêm id của issue để dễ dàng phân biệt được task và theo dõi quá trình phát triển<br>
-     ví dụ: ```ui-1-create-welcome-page```
-     có nghĩ là tạo trang mở đầu thuộc phần giao diện và đang là issue 1
-   - Tránh đánh số nhánh 
+   - **Thêm id của issue** để dễ dàng phân biệt được task và theo dõi quá trình phát triển<br>
+     ví dụ: ```ui-1-create-welcome-page```<br>
+     có nghĩa là tạo trang mở đầu thuộc phần giao diện và đang là issue 1
+   - **Tránh đánh số tên nhánh**: việc đánh số sẽ dễ gây rắc rối và tăng thêm khả năng bị lẫn lộn trong quá trình đặt tên nhánh
+   - **Tránh đặt tên nhánh quá dài**: mặc dù tên nhánh phải càng rõ ràng càng tốt, nhưng nó cũng phải ngắn gọn và xúc tích, nếu như đặt tên nhánh quá dài có thể ảnh hưởng tới khả năng đọc và tính hiệu quả của nó
+   - **Tính nhứt quán**: sau khi đã thống nhất quy ước thì phải xử dụng nó xuyên suốt việc phát triển phần mềm
+  
+Dẫn chứng từ:
+- [Best Practices for Naming Git Branches   - Tilburg Science Hub](https://tilburgsciencehub.com/topics/automation/version-control/advanced-git/naming-git-branches/)
+- [Best practices for naming Git branches](https://graphite.dev/guides/git-branch-naming-conventions)
