@@ -38,9 +38,16 @@ Ví dụ **"change" thay cho "changed..."**
     - ```ci: cập nhật cấu hình CI #55```
 
 ## 2. Cách đặt tên nhánh
-1. Thêm tiền tố ở tên nhánh là một cách thức phổ biến và hệu quả để phân loại nhánh dựa trên kế hoạch được lập nên
+1. **Thêm tiền tố ở tên nhánh là một cách thức phổ biến và hệu quả để phân loại nhánh dựa trên kế hoạch được lập nên**
    - **feature/**: nhánh đó được xử dụng để phát triển 1 chức năng nhất định.
    - **bugfix/**: nhánh đó được xử dụng để sửa lỗi của một tính năng nào đó.
    - **bugfix/**: nhánh đó đang được xử dụng để sửa lỗi khẩn cấp.
    - **bugfix/**: nhánh đó được xử dụng để phát hành một tính năng mới.
-2. Git Flow là một mô hình quản lý để tổ chức quy trình phát triển phần mềm 
+   - **test/**: kiểm thử chức năng đó có lỗi gì không
+2. **Hậu tố**
+   - Nên viết tách riêng ra bằng dấu ```-``` hoặc là dấu ```/``` để tăng khả năng đọc tên nhánh <br>
+     ví dụ: ```create-welcome-page``` hoặc ```create/welcome/page```
+   - Thêm id của issue để dễ dàng phân biệt được task và theo dõi quá trình phát triển<br>
+     ví dụ: ```ui-1-create-welcome-page```
+     có nghĩ là tạo trang mở đầu thuộc phần giao diện và đang là issue 1
+   - Tránh đánh số nhánh 
