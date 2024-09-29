@@ -1,5 +1,6 @@
-# Những thứ liên quan tới git
-## 1. Cách commit 
+# Những thứ liên quan tới git 
+## Lưu ý: tùy vào mỗi công ty sẽ có quy chuẩn làm việc riêng, nên phần nầy chỉ mang tính tham khảo.
+## 1. Cách commit - Tham khảo từ J2Team
 ### **Cấu trúc chung của một commit message**
 ```<type>:<description> [body]```
 Trong đó: 
@@ -31,9 +32,9 @@ Ví dụ **"change" thay cho "changed..."**
 - **Không xử dụng dấu chấm ở cuối câu.**
 - Nếu có **liên quan tới 1 issue** nhứt định nào đó thì phải thêm **#issue** đó ở đằng sau.
 #### **Ví dụ:**
-- ```feat: thêm tính năng tìm kiếm```
-- ```refactor: tối ưu hóa hàm xử lý dữ liệu```
-- ```docs: cập nhật hướng dẫn cài đặt```
-- ```ci: cập nhật cấu hình CI```
+- ```feat: thêm tính năng tìm kiếm #123```
+- ```refactor: tối ưu hóa hàm xử lý dữ liệu #2```
+- ```docs: cập nhật hướng dẫn cài đặt #1```
+- ```ci: cập nhật cấu hình CI #55```
 
 ## 2. Cách đặt tên issue và tạo tên nhánh dựa trên issue đó
